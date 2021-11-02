@@ -9,10 +9,10 @@ let reverseString = lowerRegister.split('').reverse().join('');
 
 function checkPalindrome (palindrome) {
     if (lowerRegister === reverseString) {
-        return 'It`s a palindrome' + ' ' + palindrome;
+        return palindrome + ' ' + '- It`s a palindrome';
     }
     else {
-        return 'It`s not a palindrome' + ' ' + palindrome;
+        return palindrome + ' ' + '- It`s not a palindrome';
     }
 }
 
