@@ -1,9 +1,9 @@
 let palindrome = prompt('Please enter string or number', 'example');
 
-console.log(palindrome);
+//console.log(palindrome);
 
 let lowerRegister = palindrome.toLowerCase();
-console.log(palindrome.toLowerCase());
+//console.log(palindrome.toLowerCase());
 
 let reverseString = lowerRegister.split('').reverse().join('');
 

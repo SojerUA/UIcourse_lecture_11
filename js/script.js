@@ -1,4 +1,4 @@
-let sideLength = +prompt('Please enter the square side length','10');
+/*let sideLength = +prompt('Please enter the square side length','10');
 
 function multiply(sideLength) {
     if (isNaN(sideLength)) {
@@ -12,4 +12,15 @@ function multiply(sideLength) {
         return 'Wrong value';
     }
 }
-alert(multiply(sideLength));
+alert(multiply(sideLength));*/
+
+
+let question = +prompt('Please enter side length', 5);
+
+function perimeter() {
+  let result = question*4;
+  return (`Perimeter of square is ${result}`);
+}
+
+alert(perimeter());
+
