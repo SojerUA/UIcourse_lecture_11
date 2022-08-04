@@ -1,4 +1,4 @@
-let palindrome = prompt('Please enter string or number', 'example');
+/*let palindrome = prompt('Please enter string or number', 'example');
 
 //console.log(palindrome);
 
@@ -16,4 +16,11 @@ function checkPalindrome (palindrome) {
     }
 }
 
-alert(checkPalindrome(palindrome));
+alert(checkPalindrome(palindrome));*/
+
+let x = prompt('Enter palindrome')
+const isPalindrome = (x) => {
+  return x.split("").reverse().join("").toLowerCase() === x.toLowerCase() ? true : false
+}
+
+alert(isPalindrome(x));
