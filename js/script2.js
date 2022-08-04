@@ -1,4 +1,4 @@
-let number = +prompt('Please enter the number to multiply','5');
+/*let number = +prompt('Please enter the number to multiply','5');
 
 function multiply(number) {
     if (isNaN(number)) {
@@ -13,4 +13,15 @@ function multiply(number) {
         return evenNumber;
     }
 }
-alert(multiply(number));
+alert(multiply(number));*/
+
+let number = +prompt('Please enter a number', 10);
+
+function multiply() {
+  if (number % 2) {
+    return number * 9;
+  } else {
+    return number * 8;
+  }
+}
+alert(multiply());
